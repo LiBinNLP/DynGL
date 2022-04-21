@@ -29,25 +29,26 @@ You can download the pretrained model in BaiduNetDisk, and put them in the outpu
 
 `DyGLSDP` allows you parse sentences with a few lines of code:
 ```py
->>> from supar import Parser
->>> parser = Parser.load('dygl-semantic-dependency')
->>> dataset = parser.predict('There is no asbestos in our products now .', lang='en', prob=True, verbose=False)
+>>> from supar import Parser 
+>>> parser = Parser.load('/mnt/sda1_hd/atur/libin/projects/DyGLSDP/output/gcn/PSD/english/tag/model') 
+>>> dataset = parser.predict('There is no asbestos in our products now .', lang='en', prob=True, verbose=False) 
+>>> print(dataset[0])
+
 ```
 By default, we use [`stanza`](https://github.com/stanfordnlp/stanza) internally to tokenize plain texts for parsing.
 You only need to specify the language code `lang` for tokenization.
 
 ```py
 >>> 
-1	There	there	EX	EX	_	0	root	0:root	_
-2	is	is	VBZ	VBZ	_	1	orphan	1:orphan	_
-3	no	no	DT	DT	_	1	orphan	1:orphan	_
-4	asbestos	asbestos	NN	NN	_	2	ARG1	2:ARG1|3:BV|5:ARG1	_
-5	in	in	IN	IN	_	1	orphan	1:orphan	_
-6	our	our	PRP$	PRP$	_	1	orphan	1:orphan	_
-7	products	product	NNS	NNS	_	5	ARG2	5:ARG2|6:poss	_
-8	now	now	RB	RB	_	1	orphan	1:orphan	_
-9	.	_	.	.	_	1	orphan	1:orphan	_
-10	”	_	''	''	_	1	orphan	1:orphan	_
+1	There	_	_	_	_	_	_	0:root	_
+2	is	_	_	_	_	_	_	1:orphan	_
+3	no	_	_	_	_	_	_	4:RSTR	_
+4	asbestos	_	_	_	_	_	_	2:ACT-arg	_
+5	in	_	_	_	_	_	_	1:orphan	_
+6	our	_	_	_	_	_	_	7:APP	_
+7	products	_	_	_	_	_	_	4:LOC	_
+8	now	_	_	_	_	_	_	2:TWHEN	_
+9	.	_	_	_	_	_	_	1:orphan	_
 
 >>> 
 ```
