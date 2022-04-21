@@ -19,6 +19,8 @@ As a prerequisite, the following requirements should be satisfied:
 
 ## Usage
 
+### Parsing
+
 You can download the pretrained model in BaiduNetDisk, and put them in the output directory:
 ```
 (链接)URL：https://pan.baidu.com/s/1Gh1Fq-O_UbQaX0VKBHC5hA 
