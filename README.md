@@ -1,7 +1,7 @@
 # DyGLSDP
 
 
-Dynamic Graph Learning for Semantic Dependency Parsing.
+Dynamic Graph Learning for Semantic Dependency Parsing. This repo is a extension of [Supar](https://github.com/yzhangcs/parser)
 
 
 ## Installation
@@ -27,7 +27,7 @@ You can download the pretrained model in BaiduNetDisk, and put them in the outpu
 (提取码)Password：star
 ```
 
-`DyGLSDP` allows you parse sentences with a few lines of code:
+`DyGLSDP` allows you parse sentences with a few lines of code, example code is shown in tests/test_sdp.py:
 ```py
 >>> from supar import Parser 
 >>> parser = Parser.load('/mnt/sda1_hd/atur/libin/projects/DyGLSDP/output/gcn/PSD/english/tag/model') 
