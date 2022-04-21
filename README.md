@@ -19,7 +19,13 @@ As a prerequisite, the following requirements should be satisfied:
 
 ## Usage
 
-`DyGLSDP` allows you to download the pretrained model and parse sentences with a few lines of code:
+You can download the pretrained model in BaiduNetDisk, and put them in the output directory:
+```
+(链接)URL：https://pan.baidu.com/s/1Gh1Fq-O_UbQaX0VKBHC5hA 
+(提取码)Password：star
+```
+
+`DyGLSDP` allows you parse sentences with a few lines of code:
 ```py
 >>> from supar import Parser
 >>> parser = Parser.load('dygl-semantic-dependency')
@@ -46,7 +52,6 @@ Probabilities can be returned along with the results if `prob=True`.
 
 >>> 
 ```
-
 
 ### Training
 
@@ -78,14 +83,15 @@ evaluate
 /mnt/sda1_hd/atur/libin/projects/DyGLSDP/dygl-sdp.ini
 ```
 
-See [EXAMPLES](EXAMPLES.md) for more instructions on training and evaluation.
-
 ## Performance
 
-`DyGLSDP` provides pretrained models on SemEval-2015 Task 18 dataset for English, Chinese and Czech. You can download them in BaiduNetDisk:
-URL：https://pan.baidu.com/s/1Gh1Fq-O_UbQaX0VKBHC5hA 
-Password：star
+`DyGLSDP` provides pretrained models on SemEval-2015 Task 18 dataset for English, Chinese and Czech. 
 
 The tables below list the performance and parsing speed of pretrained models for different tasks.
 All results are tested on the machine with Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz and Nvidia GeForce GTX 2080 Ti GPU.
 
+### English
+
+### Chinese
+
+### Czech
