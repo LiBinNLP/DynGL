@@ -71,7 +71,7 @@ train
 
 ### Evaluation
 
-The evaluation process resembles prediction:
+To evaluate trained model, you can use the following command:
 ```sh
 $ python -m supar.cmds.dygl_sdp.py
 evaluate
