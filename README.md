@@ -6,7 +6,7 @@ Dynamic Graph Learning for Semantic Dependency Parsing. This repo is a extension
 
 ## Installation
 
-`DyGLSDP` can be installed from source:
+`DyGLSDP` can be installed from source, you can also clone the repo and run it in IDE (i.e. Pycharm):
 ```sh
 $ git clone https://github.com/LiBinNLP/DyGLSDP && cd parser
 $ python setup.py install
