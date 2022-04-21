@@ -34,9 +34,6 @@ You can download the pretrained model in BaiduNetDisk, and put them in the outpu
 By default, we use [`stanza`](https://github.com/stanfordnlp/stanza) internally to tokenize plain texts for parsing.
 You only need to specify the language code `lang` for tokenization.
 
-The call to `parser.predict` will return an instance of `supar.utils.Dataset` containing the predicted results.
-You can either access each sentence held in `dataset` or an individual field of all results.
-Probabilities can be returned along with the results if `prob=True`.
 ```py
 >>> 
 1	There	there	EX	EX	_	0	root	0:root	_
