@@ -27,7 +27,7 @@ You can download the pretrained model in BaiduNetDisk, and put them in the outpu
 (提取码)Password：star
 ```
 
-`DyGLSDP` allows you parse sentences with a few lines of code, example code is shown in tests/test_sdp.py:
+`DyGLSDP` allows you parse sentences with a few lines of code, example code is shown in [tests/test_sdp.py](https://github.com/LiBinNLP/DyGLSDP/blob/main/tests/test_sdp.py):
 ```py
 >>> from supar import Parser 
 >>> parser = Parser.load('/mnt/sda1_hd/atur/libin/projects/DyGLSDP/output/gcn/PSD/english/tag/model') 
@@ -86,12 +86,28 @@ evaluate
 ## Performance
 
 `DyGLSDP` provides pretrained models on SemEval-2015 Task 18 dataset for English, Chinese and Czech. 
+Embedding settings:
+Basic: Part-of-Speech tag embedding
++Char+Lemma: Part-of-Speech tag embedding + character embedding (CharLSTM) + lemma embedding
++Char+Lemma+BERT: Part-of-Speech tag embedding + character embedding (CharLSTM) + lemma embedding + BERT(base)
 
 The tables below list the performance and parsing speed of pretrained models for different tasks.
 All results are tested on the machine with Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz and Nvidia GeForce GTX 2080 Ti GPU.
 
 ### English
-
+----------------------------------------------------------------------------------------
+                               |      DM     |     PAS     |      PSD    |    Avg
+                               |   ID | OOD  |   ID   OOD  |   ID    OOD |  ID  | OOD  |
+----------------------------------------------------------------------------------------
+DyGLSDP(GCN):Basic             | 93.7 | 89.3 | 94.9 | 91.7 | 85.9 | 84.1 | 91.5 | 88.5 |     
+DyGLSDP(GAT):Basic             | 93.8 | 89.2 | 95.1 | 92.0 | 85.9 | 83.8 | 91.6 | 88.3 |
+----------------------------------------------------------------------------------------
+DyGLSDP(GCN):+Char+Lemma       | 95.0 | 90.1 | 95.0 | 92.0 | 86.6 | 85.0 | 92.2 | 89.0 |
+DyGLSDP(GAT):+Char+Lemma       | 94.9 | 90.5 | 95.3 | 92.1 | 86.7 | 85.0 | 92.3 | 89.2 |
+----------------------------------------------------------------------------------------
+DyGLSDP(GCN):+Char+Lemma+BERT  | 95.8 | 92.7 | 96.2 | 94.2 | 87.8 | 87.0 | 93.3 | 91.3 | 
+DyGLSDP(GAT):+Char+Lemma+BERT  | 95.9 | 92.7 | 96.2 | 94.3 | 87.7 | 87.2 | 93.3 | 91.4 |
+----------------------------------------------------------------------------------------
 ### Chinese
 
 ### Czech
