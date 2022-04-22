@@ -86,7 +86,8 @@ evaluate
 ## Performance
 
 `DyGLSDP` provides pretrained models on SemEval-2015 Task 18 dataset for English, Chinese and Czech. 
-Embedding settings:
+
+Three embedding settings in the runtime:
 
 ```
 Basic: Part-of-Speech tag embedding.
@@ -113,6 +114,21 @@ DyGLSDP(GCN):+Char+Lemma+BERT  | 95.8 | 92.7 | 96.2 | 94.2 | 87.8 | 87.0 | 93.3 
 DyGLSDP(GAT):+Char+Lemma+BERT  | 95.9 | 92.7 | 96.2 | 94.3 | 87.7 | 87.2 | 93.3 | 91.4 |
 ----------------------------------------------------------------------------------------
 ```
-### Chinese
+### Chinese and Czech
 
-### Czech
+```
+------------------------------------------------------------
+                               | PAS(Chinese)|  PSD(Czech) |   
+                               |      ID     |   ID   OOD  |
+------------------------------------------------------------
+DyGLSDP(GCN):Basic             |     88.8    | 89.3 | 94.9 |  
+DyGLSDP(GAT):Basic             |             | 89.2 | 95.1 |
+------------------------------------------------------------
+DyGLSDP(GCN):+Char+Lemma       |             | 90.1 | 95.0 |
+DyGLSDP(GAT):+Char+Lemma       |             | 90.5 | 95.3 |
+------------------------------------------------------------
+DyGLSDP(GCN):+Char+Lemma+BERT  |             | 92.7 | 96.2 |
+DyGLSDP(GAT):+Char+Lemma+BERT  |             | 92.7 | 96.2 |
+------------------------------------------------------------
+```
+
