@@ -85,7 +85,7 @@ evaluate
 
 ## Performance
 
-`DyGLSDP` provides pretrained models on SemEval-2015 Task 18 dataset for English, Chinese and Czech. 
+`DyGLSDP` achieves start-of-the-art performance on SemEval-2015 Task 18 dataset for English, Chinese and Czech. Trained models are provided in above.
 
 Three embedding settings in the runtime:
 
