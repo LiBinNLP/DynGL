@@ -87,9 +87,12 @@ evaluate
 
 `DyGLSDP` provides pretrained models on SemEval-2015 Task 18 dataset for English, Chinese and Czech. 
 Embedding settings:
-Basic: Part-of-Speech tag embedding
-+Char+Lemma: Part-of-Speech tag embedding + character embedding (CharLSTM) + lemma embedding
-+Char+Lemma+BERT: Part-of-Speech tag embedding + character embedding (CharLSTM) + lemma embedding + BERT(base)
+
+```
+Basic: Part-of-Speech tag embedding.
++Char+Lemma: Part-of-Speech tag embedding + character embedding (CharLSTM) + lemma embedding.
++Char+Lemma+BERT: Part-of-Speech tag embedding + character embedding (CharLSTM) + lemma embedding + BERT(base).
+```
 
 The tables below list the performance and parsing speed of pretrained models for different tasks.
 All results are tested on the machine with Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz and Nvidia GeForce GTX 2080 Ti GPU.
