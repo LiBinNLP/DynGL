@@ -95,6 +95,7 @@ The tables below list the performance and parsing speed of pretrained models for
 All results are tested on the machine with Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz and Nvidia GeForce GTX 2080 Ti GPU.
 
 ### English
+```
 ----------------------------------------------------------------------------------------
                                |      DM     |     PAS     |      PSD    |    Avg
                                |   ID | OOD  |   ID   OOD  |   ID    OOD |  ID  | OOD  |
@@ -108,6 +109,7 @@ DyGLSDP(GAT):+Char+Lemma       | 94.9 | 90.5 | 95.3 | 92.1 | 86.7 | 85.0 | 92.3 
 DyGLSDP(GCN):+Char+Lemma+BERT  | 95.8 | 92.7 | 96.2 | 94.2 | 87.8 | 87.0 | 93.3 | 91.3 | 
 DyGLSDP(GAT):+Char+Lemma+BERT  | 95.9 | 92.7 | 96.2 | 94.3 | 87.7 | 87.2 | 93.3 | 91.4 |
 ----------------------------------------------------------------------------------------
+```
 ### Chinese
 
 ### Czech
