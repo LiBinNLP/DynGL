@@ -122,13 +122,13 @@ DyGLSDP(GAT):+Char+Lemma+BERT  | 95.9 | 92.7 | 96.2 | 94.3 | 87.7 | 87.2 | 93.3 
                                |      ID     |   ID   OOD  |
 ------------------------------------------------------------
 DyGLSDP(GCN):Basic             |     88.8    | 89.3 | 94.9 |  
-DyGLSDP(GAT):Basic             |             | 89.2 | 95.1 |
+DyGLSDP(GAT):Basic             |     88.9    | 89.2 | 95.1 |
 ------------------------------------------------------------
-DyGLSDP(GCN):+Char+Lemma       |             | 90.1 | 95.0 |
-DyGLSDP(GAT):+Char+Lemma       |             | 90.5 | 95.3 |
+DyGLSDP(GCN):+Char+Lemma       |     88.5    | 90.1 | 95.0 |
+DyGLSDP(GAT):+Char+Lemma       |     88.3    | 90.5 | 95.3 |
 ------------------------------------------------------------
-DyGLSDP(GCN):+Char+Lemma+BERT  |             | 92.7 | 96.2 |
-DyGLSDP(GAT):+Char+Lemma+BERT  |             | 92.7 | 96.2 |
+DyGLSDP(GCN):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
+DyGLSDP(GAT):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
 ------------------------------------------------------------
 ```
 
