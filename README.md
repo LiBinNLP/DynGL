@@ -101,7 +101,7 @@ All results are tested on the machine with Intel(R) Xeon(R) Silver 4216 CPU @ 2.
 ### English
 ```
 ----------------------------------------------------------------------------------------
-                               |      DM     |     PAS     |      PSD    |    Avg
+                               |      DM     |     PAS     |      PSD    |    Avg      |
                                |   ID | OOD  |   ID   OOD  |   ID    OOD |  ID  | OOD  |
 ----------------------------------------------------------------------------------------
 DyGLSDP(GCN):Basic             | 93.7 | 89.3 | 94.9 | 91.7 | 85.9 | 84.1 | 91.5 | 88.5 |     
