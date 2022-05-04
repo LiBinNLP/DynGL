@@ -1,4 +1,4 @@
-# DyGLSDP
+# DynGL-SDP
 
 
 Dynamic Graph Learning for Semantic Dependency Parsing. This repo is a extension of [Supar](https://github.com/yzhangcs/parser)
@@ -6,7 +6,7 @@ Dynamic Graph Learning for Semantic Dependency Parsing. This repo is a extension
 
 ## Installation
 
-`DyGLSDP` can be installed from source, you can also clone the repo and run it in IDE (i.e. Pycharm):
+`DynGL-SDP` can be installed from source, you can also clone the repo and run it in IDE (i.e. Pycharm):
 ```sh
 $ git clone https://github.com/LiBinNLP/DyGLSDP && cd parser
 $ python setup.py install
@@ -85,7 +85,7 @@ evaluate
 
 ## Performance
 
-`DyGLSDP` achieves start-of-the-art performance on SemEval-2015 Task 18 dataset for English, Chinese and Czech. Trained models are provided in above.
+`DynGL-SDP` achieves start-of-the-art performance on SemEval-2015 Task 18 dataset for English, Chinese and Czech. Trained models are provided in above.
 
 Three embedding settings in the runtime:
 
@@ -104,14 +104,14 @@ All results are tested on the machine with Intel(R) Xeon(R) Silver 4216 CPU @ 2.
                                |      DM     |     PAS     |      PSD    |    Avg      |
                                |   ID | OOD  |   ID   OOD  |   ID    OOD |  ID  | OOD  |
 ----------------------------------------------------------------------------------------
-DyGLSDP(GCN):Basic             | 93.7 | 89.3 | 94.9 | 91.7 | 85.9 | 84.1 | 91.5 | 88.5 |     
-DyGLSDP(GAT):Basic             | 93.8 | 89.2 | 95.1 | 92.0 | 85.9 | 83.8 | 91.6 | 88.3 |
+DynGL-SDP(GCN):Basic             | 93.7 | 89.3 | 94.9 | 91.7 | 85.9 | 84.1 | 91.5 | 88.5 |     
+DynGL-SDP(GAT):Basic             | 93.8 | 89.2 | 95.1 | 92.0 | 85.9 | 83.8 | 91.6 | 88.3 |
 ----------------------------------------------------------------------------------------
-DyGLSDP(GCN):+Char+Lemma       | 95.0 | 90.1 | 95.0 | 92.0 | 86.6 | 85.0 | 92.2 | 89.0 |
-DyGLSDP(GAT):+Char+Lemma       | 94.9 | 90.5 | 95.3 | 92.1 | 86.7 | 85.0 | 92.3 | 89.2 |
+DynGL-SDP(GCN):+Char+Lemma       | 95.0 | 90.1 | 95.0 | 92.0 | 86.6 | 85.0 | 92.2 | 89.0 |
+DynGL-SDP(GAT):+Char+Lemma       | 94.9 | 90.5 | 95.3 | 92.1 | 86.7 | 85.0 | 92.3 | 89.2 |
 ----------------------------------------------------------------------------------------
-DyGLSDP(GCN):+Char+Lemma+BERT  | 95.8 | 92.7 | 96.2 | 94.2 | 87.8 | 87.0 | 93.3 | 91.3 | 
-DyGLSDP(GAT):+Char+Lemma+BERT  | 95.9 | 92.7 | 96.2 | 94.3 | 87.7 | 87.2 | 93.3 | 91.4 |
+DynGL-SDP(GCN):+Char+Lemma+BERT  | 95.8 | 92.7 | 96.2 | 94.2 | 87.8 | 87.0 | 93.3 | 91.3 | 
+DynGL-SDP(GAT):+Char+Lemma+BERT  | 95.9 | 92.7 | 96.2 | 94.3 | 87.7 | 87.2 | 93.3 | 91.4 |
 ----------------------------------------------------------------------------------------
 ```
 ### Chinese and Czech
@@ -121,14 +121,14 @@ DyGLSDP(GAT):+Char+Lemma+BERT  | 95.9 | 92.7 | 96.2 | 94.3 | 87.7 | 87.2 | 93.3 
                                | PAS(Chinese)|  PSD(Czech) |   
                                |      ID     |   ID   OOD  |
 ------------------------------------------------------------
-DyGLSDP(GCN):Basic             |     88.8    | 89.3 | 94.9 |  
-DyGLSDP(GAT):Basic             |     88.9    | 89.2 | 95.1 |
+DynGL-SDP(GCN):Basic             |     88.8    | 89.3 | 94.9 |  
+DynGL-SDP(GAT):Basic             |     88.9    | 89.2 | 95.1 |
 ------------------------------------------------------------
-DyGLSDP(GCN):+Char+Lemma       |     88.5    | 90.1 | 95.0 |
-DyGLSDP(GAT):+Char+Lemma       |     88.3    | 90.5 | 95.3 |
+DynGL-SDP(GCN):+Char+Lemma       |     88.5    | 90.1 | 95.0 |
+DynGL-SDP(GAT):+Char+Lemma       |     88.3    | 90.5 | 95.3 |
 ------------------------------------------------------------
-DyGLSDP(GCN):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
-DyGLSDP(GAT):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
+DynGL-SDP(GCN):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
+DynGL-SDP(GAT):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
 ------------------------------------------------------------
 ```
 
