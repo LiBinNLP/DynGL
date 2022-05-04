@@ -6,10 +6,10 @@ Dynamic Graph Learning for Semantic Dependency Parsing. <!--This repo is a exten
 
 ## Installation
 
-`DynGL-SDP` can be installed from source, you can also clone the repo and run it in IDE (i.e. Pycharm):
+`DynGL-SDP` can be installed from source, you can download it and run it in command line or IDE (i.e. Pycharm):
 ```sh
 <!--$ git clone https://github.com/LiBinNLP/DynGL-SDP -->
-$ cd /DynGL-SDP/parser
+$ cd /projects/DynGL-SDP/parser
 $ python setup.py install
 ```
 
