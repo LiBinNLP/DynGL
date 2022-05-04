@@ -8,7 +8,7 @@ Dynamic Graph Learning for Semantic Dependency Parsing. This repo is a extension
 
 `DynGL-SDP` can be installed from source, you can also clone the repo and run it in IDE (i.e. Pycharm):
 ```sh
-$ git clone https://github.com/LiBinNLP/DyGLSDP && cd parser
+$ git clone https://github.com/LiBinNLP/DynGL-SDP && cd parser
 $ python setup.py install
 ```
 
@@ -27,10 +27,10 @@ You can download the pretrained model in BaiduNetDisk, and put them in the outpu
 (提取码)Password：star
 ```
 
-`DyGLSDP` allows you parse sentences with a few lines of code, example code is shown in [tests/test_sdp.py](https://github.com/LiBinNLP/DyGLSDP/blob/main/tests/test_sdp.py):
+`DynGL-SDP` allows you parse sentences with a few lines of code, example code is shown in [tests/test_sdp.py](https://github.com/LiBinNLP/DyGLSDP/blob/main/tests/test_sdp.py):
 ```py
 >>> from supar import Parser 
->>> parser = Parser.load('/mnt/sda1_hd/atur/libin/projects/DyGLSDP/output/gcn/PSD/english/tag/model') 
+>>> parser = Parser.load('/mnt/sda1_hd/atur/libin/projects/DynGL-SDP/output/gcn/PSD/english/tag/model') 
 >>> dataset = parser.predict('There is no asbestos in our products now .', lang='en', prob=True, verbose=False) 
 >>> print(dataset[0])
 
@@ -55,7 +55,7 @@ You only need to specify the language code `lang` for tokenization.
 
 ### Training
 
-To train a model of DyGLSDP, you need to specify some configurations in dygl-sdp.ini, and then use the following command line to start training:
+To train a model of DynGL-SDP, you need to specify some configurations in dygl-sdp.ini, and then use the following command line to start training:
 ```sh
 $ python -m supar.cmds.dygl_sdp.py
 train
@@ -63,9 +63,9 @@ train
 -d
 0
 -p
-/mnt/sda1_hd/atur/libin/projects/DyGLSDP/output/gcn/DM/english/tag/model
+/mnt/sda1_hd/atur/libin/projects/DynGL-SDP/output/gcn/DM/english/tag/model
 -c
-/mnt/sda1_hd/atur/libin/projects/DyGLSDP/dygl-sdp.ini
+/mnt/sda1_hd/atur/libin/projects/DynGL-SDP/dygl-sdp.ini
 ```
 
 
@@ -78,9 +78,9 @@ evaluate
 -d
 0
 -p
-/mnt/sda1_hd/atur/libin/projects/DyGLSDP/output/gcn/DM/english/tag/model
+/mnt/sda1_hd/atur/libin/projects/DynGL-SDP/output/gcn/DM/english/tag/model
 -c
-/mnt/sda1_hd/atur/libin/projects/DyGLSDP/dygl-sdp.ini
+/mnt/sda1_hd/atur/libin/projects/DynGL-SDP/dygl-sdp.ini
 ```
 
 ## Performance
