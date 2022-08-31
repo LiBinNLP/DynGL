@@ -1,7 +1,9 @@
 # DynGL-SDP
 
 
-Dynamic Graph Learning for Semantic Dependency Parsing. <!--This repo is a extension of [Supar](https://github.com/yzhangcs/parser)-->
+Dynamic Graph Learning for Semantic Dependency Parsing. 
+Code for the paper DynGL-SDP:Dynamic Graph Learning for Semantic Dependency Parsing (COLING 2022).
+<!--This repo is a extension of [Supar](https://github.com/yzhangcs/parser)-->
 
 
 ## Installation
