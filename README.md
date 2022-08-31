@@ -1,4 +1,4 @@
-# DynGL-SDP:Dynamic Graph Learning for Semantic Dependency Parsing.
+# Dynamic Graph Learning for Semantic Dependency Parsing
 
 
 Code for the paper DynGL-SDP:Dynamic Graph Learning for Semantic Dependency Parsing (COLING 2022).
