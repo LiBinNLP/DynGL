@@ -1,7 +1,7 @@
 # Dynamic Graph Learning for Semantic Dependency Parsing
 
 
-Code for the paper **DynGL-SDP:Dynamic Graph Learning for Semantic Dependency Parsing [(COLING 2022)]([https://github.com/stanfordnlp/stanza](https://aclanthology.org/2022.coling-1.351)) **.
+Code for the paper **DynGL-SDP:Dynamic Graph Learning for Semantic Dependency Parsing [`(COLING 2022)`](https://aclanthology.org/2022.coling-1.351) **.
 
 
 ## Installation
