@@ -1,7 +1,7 @@
 # Dynamic Graph Learning for Semantic Dependency Parsing
 
 
-Code for the paper **DynGL-SDP:Dynamic Graph Learning for Semantic Dependency Parsing (COLING 2022) (https://aclanthology.org/2022.coling-1.351)**.
+Code for the paper **[`DynGL-SDP:Dynamic Graph Learning for Semantic Dependency Parsing (COLING 2022)`] (https://aclanthology.org/2022.coling-1.351)**.
 
 
 ## Installation
@@ -137,9 +137,9 @@ DynGL-SDP(GAT):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
 
 ### Citation
 Please cite our paper if you are interested.
-```tex 
+```
 @inproceedings{li2022dyngl,
-	title = "{D}yn{GL}-{SDP}: Dynamic Graph Learning for Semantic Dependency Parsing",
+	title = "{DynGL-SDP: Dynamic Graph Learning for Semantic Dependency Parsing",
 	author = {Li, Bin  and Gao, Miao  and Fan, Yunlong  and Sataer, Yikemaiti  and Gao, Zhiqiang  and Gui, Yaocheng},
 	booktitle = {Proceedings of the 29th International Conference on Computational Linguistics},
 	month = {oct},
