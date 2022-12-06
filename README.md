@@ -1,4 +1,4 @@
-# Dynamic Graph Learning for Semantic Dependency Parsing
+# Dynamic Graph Learning for Structured Prediction in Natural Language Processing
 
 
 Code for the paper **Dynamic Graph Learning for Structured Prediction in Natural Language Processing**.
