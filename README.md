@@ -7,9 +7,9 @@ Code for the paper **Dynamic Graph Learning for Structured Prediction in Natural
 ## Installation
 
 `DynGL-SDP` can be installed from source, you can download it and run it in command line or IDE (i.e. Pycharm):
-<!--$ git clone https://github.com/LiBinNLP/DynGL-SDP -->
+<!--$ git clone https://github.com/LiBinNLP/DynGL -->
 ```sh
-$ cd /projects/DynGL-SDP/parser
+$ cd /projects/DynGL/parser
 $ python setup.py install
 ```
 
@@ -24,14 +24,14 @@ As a prerequisite, the following requirements should be satisfied:
 
 You can download the pretrained model in BaiduNetDisk, and put them in the output directory:
 ```
-(链接)URL：https://pan.baidu.com/s/1Gh1Fq-O_UbQaX0VKBHC5hA 
+(链接)URL：https://pan.baidu.com/s/1WxPiJfgl0ThXCvFf-j8wOA 
 (提取码)Password：star
 ```
 
-`DynGL-SDP` allows you parse sentences with a few lines of code, example code is shown in tests/test_sdp.py<!--[tests/test_sdp.py](https://github.com/LiBinNLP/DynGL-SDP/blob/main/tests/test_sdp.py)-->:
+`DynGL-SDP` allows you parse sentences with a few lines of code, example code is shown in tests/test_sdp.py<!--[tests/test_sdp.py](https://github.com/LiBinNLP/DynGL/blob/main/tests/test_sdp.py)-->:
 ```py
 >>> from supar import Parser 
->>> parser = Parser.load('/projects/DynGL-SDP/output/gcn/PSD/english/tag/model') 
+>>> parser = Parser.load('/projects/DynGL/output/CTB/GCN/roberta/model') 
 >>> dataset = parser.predict('There is no asbestos in our products now .', lang='en', prob=True, verbose=False) 
 >>> print(dataset[0])
 
