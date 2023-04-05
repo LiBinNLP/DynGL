@@ -1,12 +1,12 @@
-# Dynamic Graph Learning for Structured Prediction in Natural Language Processing
+# A Dynamic Graph Learning Framework using Joint Learning Paradigm for Structured Prediction
 
 
-Code for the paper **Dynamic Graph Learning for Structured Prediction in Natural Language Processing**.
+Code for the paper **A Dynamic Graph Learning Framework using Joint Learning Paradigm for Structured Prediction**.
 
 
 ## Installation
 
-`DynGL-SDP` can be installed from source, you can download it and run it in command line or IDE (i.e. Pycharm):
+`DynGL` can be installed from source, you can download it and run it in command line or IDE (i.e. Pycharm):
 <!--$ git clone https://github.com/LiBinNLP/DynGL -->
 ```sh
 $ cd /projects/DynGL/parser
@@ -81,9 +81,9 @@ evaluate
 -d
 0
 -p
-/projects/DynGL-SDP/output/gcn/DM/english/tag/model
+/projects/DynGL/output/gcn/DM/english/tag/model
 -c
-/projects/DynGL-SDP/dygl-sdp.ini
+/projects/DynGL/dygl-sdp.ini
 ```
 
 ## Performance
