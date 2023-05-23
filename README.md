@@ -147,7 +147,7 @@ Please cite our paper if you are interested.
 	NUMBER = {11},
 	ARTICLE-NUMBER = {2357},
 	URL = {https://www.mdpi.com/2079-9292/12/11/2357},
-	ISSN = {},
+	ISSN = {2079-9292},
 	DOI = {10.3390/electronics12112357}
 }
 ```
