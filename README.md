@@ -1,7 +1,7 @@
-# A Dynamic Graph Learning Framework using Joint Learning Paradigm for Structured Prediction
+# A Joint Learning-based Dynamic Graph Learning Framework for Structured Prediction
 
 
-Code for the paper **A Dynamic Graph Learning Framework using Joint Learning Paradigm for Structured Prediction**.
+Code for the paper **A Joint Learning-based Dynamic Graph Learning Framework for Structured Prediction**.
 
 
 ## Installation
