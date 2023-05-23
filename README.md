@@ -138,14 +138,16 @@ DynGL-SDP(GAT):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
 ### Citation
 Please cite our paper if you are interested.
 ```
-@inproceedings{li2022dyngl,
-	title = "{DynGL-SDP: Dynamic Graph Learning for Semantic Dependency Parsing",
-	author = {Li, Bin  and Gao, Miao  and Fan, Yunlong  and Sataer, Yikemaiti  and Gao, Zhiqiang  and Gui, Yaocheng},
-	booktitle = {Proceedings of the 29th International Conference on Computational Linguistics},
-	month = {oct},
-	year = {2022},
-	address = {Gyeongju, Republic of Korea},
-	url = {https://aclanthology.org/2022.coling-1.351},
-	pages = {3994--4004}
+@Article{electronics12112357,
+	AUTHOR = {Bin Li, Yunlong Fan, Miao Gao, Yikemaiti Sataer and Zhiqiang Gao},
+	TITLE = {A Joint-Learning-Based Dynamic Graph Learning Framework for Structured Prediction},
+	JOURNAL = {Electronics},
+	VOLUME = {12},
+	YEAR = {2023},
+	NUMBER = {11},
+	ARTICLE-NUMBER = {2357},
+	URL = {https://www.mdpi.com/2079-9292/12/11/2357},
+	ISSN = {},
+	DOI = {10.3390/electronics12112357}
 }
 ```
