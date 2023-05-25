@@ -138,16 +138,17 @@ DynGL-SDP(GAT):+Char+Lemma+BERT  |     90.8    | 92.7 | 96.2 |
 ### Citation
 Please cite our paper if you are interested.
 ```
+
 @Article{electronics12112357,
-	AUTHOR = {Bin Li, Yunlong Fan, Miao Gao, Yikemaiti Sataer and Zhiqiang Gao},
-	TITLE = {A Joint-Learning-Based Dynamic Graph Learning Framework for Structured Prediction},
-	JOURNAL = {Electronics},
-	VOLUME = {12},
-	YEAR = {2023},
-	NUMBER = {11},
-	ARTICLE-NUMBER = {2357},
-	URL = {https://www.mdpi.com/2079-9292/12/11/2357},
-	ISSN = {2079-9292},
-	DOI = {10.3390/electronics12112357}
+AUTHOR = {Li, Bin and Fan, Yunlong and Gao, Miao and Sataer, Yikemaiti and Gao, Zhiqiang},
+TITLE = {A Joint-Learning-Based Dynamic Graph Learning Framework for Structured Prediction},
+JOURNAL = {Electronics},
+VOLUME = {12},
+YEAR = {2023},
+NUMBER = {11},
+ARTICLE-NUMBER = {2357},
+URL = {https://www.mdpi.com/2079-9292/12/11/2357},
+ISSN = {2079-9292},
+DOI = {10.3390/electronics12112357}
 }
 ```
